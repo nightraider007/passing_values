@@ -1,0 +1,41 @@
+# Terraform files
+**/.terraform/*
+*.exe
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+**/.terraform.lock.hcl
+**/.terraform.tfstate.lock.info
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# VS Code settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Local development files
+*.log
+*.bak
+*.tmp
+*.swp
+*~
